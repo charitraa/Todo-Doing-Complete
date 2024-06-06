@@ -1,21 +1,22 @@
-import './App.css'
+import React from 'react'
 import styled from 'styled-components'
-import Hero from './Hero'
+import Heading from './Heading.jsx'
+
 const MainContainer = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  width: 360px;
 `
-
-function App () {
+const Todo = () => {
   return (
     <>
       <MainContainer>
-        <Hero />
+        <Heading />
       </MainContainer>
     </>
   )
 }
 
-export default App
+export default Todo
