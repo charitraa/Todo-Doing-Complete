@@ -9,7 +9,7 @@ const MainContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 500px;
+  width: 360px;
   background-color: black;
   border-radius: 15px;
   padding: 0 10px;
@@ -19,9 +19,9 @@ const Todo = () => {
   return (
     <>
       <MainContainer>
-        <Heading />
-        <Body />
-        <AddCard />
+        <Heading title={'To Do'} />
+        <Body emoji={'🤔To-Do'} text={'To Do'} />
+        <AddCard card={'+ Add a Cart'} />
       </MainContainer>
     </>
   )

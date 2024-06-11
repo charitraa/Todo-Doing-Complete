@@ -10,10 +10,10 @@ const HeadContainer = styled.div`
   margin-left: 30px;
   padding: 8px;
 `
-const Heading = () => {
+const Heading = props => {
   return (
     <>
-      <HeadContainer>To Do</HeadContainer>
+      <HeadContainer>{props.title}</HeadContainer>
     </>
   )
 }

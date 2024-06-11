@@ -33,17 +33,18 @@ const TextContainer = styled.div`
     margin-left: 20px;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 10px;
     font-family: monospace;
   }
 `
 
-function Body () {
+function Body (props) {
   return (
     <>
       <ImageContainer>
-        <EmojiContainer> 🤔To-Do</EmojiContainer>
+        <EmojiContainer>{props.emoji} </EmojiContainer>
         <TextContainer>
-          <span>To Do</span>
+          <span>{props.text}</span>
         </TextContainer>
       </ImageContainer>
     </>

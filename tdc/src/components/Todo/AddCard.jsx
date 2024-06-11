@@ -4,14 +4,25 @@ import styled from 'styled-components'
 const CardComponent = styled.button`
   width: 100%;
   text-align: left;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   font-family: 'Segoe UI';
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background-color: black;
+  border: none;
+  color: #97a4b1;
+  cursor: pointer;
+  padding: 10px;
+  &:hover {
+    background-color: #485248;
+    color: white;
+  }
 `
-const AddCard = () => {
+const AddCard = props => {
   return (
     <>
-      <CardComponent>+ Add a Cart</CardComponent>
+      <CardComponent>{props.card}</CardComponent>
     </>
   )
 }
