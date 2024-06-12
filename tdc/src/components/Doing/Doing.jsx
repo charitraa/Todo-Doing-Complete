@@ -20,7 +20,7 @@ const Doing = () => {
     <>
       <MainContainer>
         <Heading title={'Doing'} />
-        <Body emoji={'Doing'} text={'Doing'} />
+        <Body emoji={'😒Doing'} text={'Doing'} />
         <AddCard card={'+ Add a Cart'} />
       </MainContainer>
     </>

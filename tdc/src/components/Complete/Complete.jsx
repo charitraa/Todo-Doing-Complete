@@ -20,7 +20,7 @@ const Complete = () => {
     <>
       <MainContainer>
         <Heading title={'Complete'} />
-        <Body emoji={'Complete'} text={'Complete'} />
+        <Body emoji={'😎Complete'} text={'Complete'} />
         <AddCard card={'+ Add a Cart'} />
       </MainContainer>
     </>
